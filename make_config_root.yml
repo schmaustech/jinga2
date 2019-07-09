@@ -1,0 +1,12 @@
+---
+- name: generate ironic json file
+  hosts: all
+  gather_facts: false
+  tasks:
+  - name: generate json file
+    template:
+      src: /home/bschmaus/config_root.j2
+      dest: /home/bschmaus/config_root.sh
+      mode: '0755'
+    delegate_to: localhost
+    run_once: True
