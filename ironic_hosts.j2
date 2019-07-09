@@ -1,0 +1,31 @@
+{
+  "nodes": [
+{% for host in groups['masters'] %}
+    {
+      "name": "{{ hostvars[host]['name'] }}.{{ hostvars[host]['cluster'] }}.{{ hostvars[host]['domain'] }}",
+      "driver": "ipmi",
+      "resource_class": "baremetal",
+      "driver_info": {
+        "ipmi_username": "admin",
+        "ipmi_password": "password",
+        "ipmi_address": "{{ hostvars[host]['ipmi_address'] }}",
+        "ipmi_port": "{{ hostvars[host]['ipmi_port'] }}",
+        "deploy_kernel": "http://172.22.0.1/images/ironic-python-agent.kernel",
+        "deploy_ramdisk": "http://172.22.0.1/images/ironic-python-agent.initramfs"
+      },
+      "ports": [{
+        "address": "{{ hostvars[host]['mac'] }}",
+        "pxe_enabled": true
+      }],
+      "properties": {
+        "local_gb": "{{ hostvars[host]['disk'] }}",
+        "cpu_arch": "x86_64"
+      }
+{% if loop.last %}
+    }
+{% else %}
+    },
+{% endif %}
+{% endfor %}
+  ]
+}
