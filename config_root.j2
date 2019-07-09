@@ -1,0 +1,14 @@
+{% for host in groups['bootstrap'] %}
+#!/bin/bash
+set +x
+export PULL_SECRET='{{ hostvars[host]['secret'] }}'
+set -x
+export NODES_FILE="/home/bschmaus/ironic_hosts.json"
+export INT_IF="{{ hostvars[host]['internal'] }}"
+export PRO_IF="{{ hostvars[host]['provision'] }}"
+export ROOT_DISK="{{ hostvars[host]['disk'] }}"
+export NODES_PLATFORM=BM
+export BASE_DOMAIN="{{ hostvars[host]['domain'] }}"
+export CLUSTER_NAME="{{ hostvars[host]['cluster'] }}"
+export MANAGE_BR_BRIDGE="n"
+{% endfor %}
