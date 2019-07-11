@@ -1,0 +1,23 @@
+[masters]
+master-0 name=master-0 cluster=kni5 domain=schmaustech.com ipmi_address=192.168.0.2 ipmi_port=6230 mac=52:54:00:92:43:5c disk=59
+master-1 name=master-1 cluster=kni5 domain=schmaustech.com ipmi_address=192.168.0.3 ipmi_port=6230 mac=52:54:00:b0:54:dd disk=59
+master-2 name=master-2 cluster=kni5 domain=schmaustech.com ipmi_address=192.168.0.6 ipmi_port=6230 mac=52:54:00:57:ab:c3 disk=59
+
+[bootstrap]
+rhel8-ocp-boot
+
+[ocp:children]
+masters
+bootstrap
+
+[masters:vars]
+domain=schmaustech.com
+cluster=kni5
+
+[bootstrap:vars]
+secret='PULL SECRET HERE'
+internal=ens4
+provision=ens3
+disk=/dev/sda
+domain=schmaustech.com
+cluster=kni5
