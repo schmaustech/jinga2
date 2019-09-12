@@ -1,0 +1,836 @@
+{
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python",
+        "redfish_facts": {
+            "bios_attribute": {
+                "entries": [
+                    [
+                        {
+                            "systems_uri": "/redfish/v1/Systems/System.Embedded.1"
+                        },
+                        {
+                            "AcPwrRcvry": "Last",
+                            "AcPwrRcvryDelay": "Immediate",
+                            "AcPwrRcvryUserDelay": 60,
+                            "AesNi": "Enabled",
+                            "AssetTag": "",
+                            "AuthorizeDeviceFirmware": "Disabled",
+                            "BootMode": "Bios",
+                            "BootSeqRetry": "Enabled",
+                            "ConTermType": "Vt100Vt220",
+                            "ControlledTurbo": "Disabled",
+                            "ControlledTurboMinusBin": 0,
+                            "CorrEccSmi": "Enabled",
+                            "CpuInterconnectBusLinkPower": "Disabled",
+                            "CpuInterconnectBusSpeed": "MaxDataRate",
+                            "CurrentEmbVideoState": "Enabled",
+                            "DcuIpPrefetcher": "Enabled",
+                            "DcuStreamerPrefetcher": "Enabled",
+                            "DellAutoDiscovery": "PlatformDefault",
+                            "DellWyseP25BIOSAccess": "Enabled",
+                            "DynamicCoreAllocation": "Disabled",
+                            "EmbSata": "AhciMode",
+                            "EmbVideo": "Enabled",
+                            "EnergyPerformanceBias": "MaxPower",
+                            "ErrPrompt": "Enabled",
+                            "ExtSerialConnector": "Serial1",
+                            "FailSafeBaud": "115200",
+                            "ForceInt10": "Disabled",
+                            "GenericUsbBoot": "Disabled",
+                            "HddFailover": "Disabled",
+                            "HddPlaceholder": "Disabled",
+                            "InBandManageabilityInterface": "Enabled",
+                            "IntegratedNetwork1": "Enabled",
+                            "IntegratedRaid": "Enabled",
+                            "IntelTxt": "Off",
+                            "InternalUsb": "On",
+                            "IoatEngine": "Disabled",
+                            "LogicalProc": "Enabled",
+                            "MemFrequency": "MaxPerf",
+                            "MemOpMode": "OptimizerMode",
+                            "MemPatrolScrub": "Standard",
+                            "MemRefreshRate": "1x",
+                            "MemTest": "Disabled",
+                            "MemoryMappedIOH": "56TB",
+                            "MmioAbove4Gb": "Enabled",
+                            "MonitorMwait": "Enabled",
+                            "NodeInterleave": "Disabled",
+                            "NumLock": "On",
+                            "NvmeMode": "NonRaid",
+                            "OneTimeBootMode": "Disabled",
+                            "OneTimeBootSeqDev": "HardDisk.List.1-1",
+                            "OneTimeHddSeqDev": "RAID.Integrated.1-1",
+                            "OppSrefEn": "Disabled",
+                            "OsWatchdogTimer": "Disabled",
+                            "PasswordStatus": "Unlocked",
+                            "PcieAspmL1": "Disabled",
+                            "PowerCycleRequest": "None",
+                            "Proc1Brand": "Intel(R) Xeon(R) Gold 6138 CPU @ 2.00GHz",
+                            "Proc1Id": "6-55-4",
+                            "Proc1L2Cache": "20x1 MB",
+                            "Proc1L3Cache": "28160 KB",
+                            "Proc1NumCores": 20,
+                            "Proc1TurboCoreNum": "All",
+                            "Proc2Brand": "Intel(R) Xeon(R) Gold 6138 CPU @ 2.00GHz",
+                            "Proc2Id": "6-55-4",
+                            "Proc2L2Cache": "20x1 MB",
+                            "Proc2L3Cache": "28160 KB",
+                            "Proc2NumCores": 20,
+                            "Proc2TurboCoreNum": "All",
+                            "ProcAdjCacheLine": "Enabled",
+                            "ProcBusSpeed": "10.40 GT/s",
+                            "ProcC1E": "Disabled",
+                            "ProcCStates": "Disabled",
+                            "ProcConfigTdp": "Nominal",
+                            "ProcCoreSpeed": "2.0 GHz",
+                            "ProcCores": "All",
+                            "ProcHwPrefetcher": "Enabled",
+                            "ProcPwrPerf": "MaxPerf",
+                            "ProcTurboMode": "Enabled",
+                            "ProcVirtualization": "Enabled",
+                            "ProcX2Apic": "Disabled",
+                            "PwrButton": "Enabled",
+                            "RedirAfterBoot": "Enabled",
+                            "RedundantOsLocation": "None",
+                            "SHA256SetupPassword": "",
+                            "SHA256SetupPasswordSalt": "",
+                            "SHA256SystemPassword": "",
+                            "SHA256SystemPasswordSalt": "",
+                            "SataPortA": "Auto",
+                            "SataPortACapacity": "N/A",
+                            "SataPortADriveType": "Unknown Device",
+                            "SataPortAModel": "Unknown",
+                            "SataPortB": "Auto",
+                            "SataPortBCapacity": "N/A",
+                            "SataPortBDriveType": "Unknown Device",
+                            "SataPortBModel": "Unknown",
+                            "SataPortC": "Auto",
+                            "SataPortCCapacity": "N/A",
+                            "SataPortCDriveType": "Unknown Device",
+                            "SataPortCModel": "Unknown",
+                            "SataPortD": "Auto",
+                            "SataPortDCapacity": "N/A",
+                            "SataPortDDriveType": "Unknown Device",
+                            "SataPortDModel": "Unknown",
+                            "SataPortE": "Auto",
+                            "SataPortECapacity": "N/A",
+                            "SataPortEDriveType": "Unknown Device",
+                            "SataPortEModel": "Unknown",
+                            "SataPortF": "Auto",
+                            "SataPortFCapacity": "N/A",
+                            "SataPortFDriveType": "Unknown Device",
+                            "SataPortFModel": "Unknown",
+                            "SataPortG": "Auto",
+                            "SataPortGCapacity": "N/A",
+                            "SataPortGDriveType": "Unknown Device",
+                            "SataPortGModel": "Unknown",
+                            "SataPortH": "Auto",
+                            "SataPortHCapacity": "N/A",
+                            "SataPortHDriveType": "Unknown Device",
+                            "SataPortHModel": "Unknown",
+                            "SataPortI": "Auto",
+                            "SataPortICapacity": "N/A",
+                            "SataPortIDriveType": "Unknown Device",
+                            "SataPortIModel": "Unknown",
+                            "SataPortJ": "Auto",
+                            "SataPortJCapacity": "N/A",
+                            "SataPortJDriveType": "Unknown Device",
+                            "SataPortJModel": "Unknown",
+                            "SataPortK": "Auto",
+                            "SataPortKCapacity": "N/A",
+                            "SataPortKDriveType": "Unknown Device",
+                            "SataPortKModel": "Unknown",
+                            "SataPortL": "Auto",
+                            "SataPortLCapacity": "N/A",
+                            "SataPortLDriveType": "Unknown Device",
+                            "SataPortLModel": "Unknown",
+                            "SataPortM": "Auto",
+                            "SataPortMCapacity": "N/A",
+                            "SataPortMDriveType": "Unknown Device",
+                            "SataPortMModel": "Unknown",
+                            "SataPortN": "Auto",
+                            "SataPortNCapacity": "N/A",
+                            "SataPortNDriveType": "Unknown Device",
+                            "SataPortNModel": "Unknown",
+                            "SecureBoot": "Disabled",
+                            "SecureBootMode": "DeployedMode",
+                            "SecureBootPolicy": "Standard",
+                            "SecurityFreezeLock": "Enabled",
+                            "SerialComm": "OnConRedirAuto",
+                            "SerialPortAddress": "Serial1Com2Serial2Com1",
+                            "SetBootOrderDis": "",
+                            "SetBootOrderEn": "",
+                            "SetBootOrderFqdd1": "",
+                            "SetBootOrderFqdd10": "",
+                            "SetBootOrderFqdd11": "",
+                            "SetBootOrderFqdd12": "",
+                            "SetBootOrderFqdd13": "",
+                            "SetBootOrderFqdd14": "",
+                            "SetBootOrderFqdd15": "",
+                            "SetBootOrderFqdd16": "",
+                            "SetBootOrderFqdd2": "",
+                            "SetBootOrderFqdd3": "",
+                            "SetBootOrderFqdd4": "",
+                            "SetBootOrderFqdd5": "",
+                            "SetBootOrderFqdd6": "",
+                            "SetBootOrderFqdd7": "",
+                            "SetBootOrderFqdd8": "",
+                            "SetBootOrderFqdd9": "",
+                            "SetLegacyHddOrderFqdd1": "",
+                            "SetLegacyHddOrderFqdd10": "",
+                            "SetLegacyHddOrderFqdd11": "",
+                            "SetLegacyHddOrderFqdd12": "",
+                            "SetLegacyHddOrderFqdd13": "",
+                            "SetLegacyHddOrderFqdd14": "",
+                            "SetLegacyHddOrderFqdd15": "",
+                            "SetLegacyHddOrderFqdd16": "",
+                            "SetLegacyHddOrderFqdd2": "",
+                            "SetLegacyHddOrderFqdd3": "",
+                            "SetLegacyHddOrderFqdd4": "",
+                            "SetLegacyHddOrderFqdd5": "",
+                            "SetLegacyHddOrderFqdd6": "",
+                            "SetLegacyHddOrderFqdd7": "",
+                            "SetLegacyHddOrderFqdd8": "",
+                            "SetLegacyHddOrderFqdd9": "",
+                            "SetupPassword": null,
+                            "Slot1": "Enabled",
+                            "Slot1Bif": "x16",
+                            "Slot2": "Enabled",
+                            "Slot2Bif": "x16",
+                            "Slot3": "Enabled",
+                            "Slot3Bif": "x16",
+                            "SriovGlobalEnable": "Disabled",
+                            "SubNumaCluster": "Disabled",
+                            "SysMemSize": "384 GB",
+                            "SysMemSpeed": "2666 Mhz",
+                            "SysMemType": "ECC DDR4",
+                            "SysMemVolt": "1.20 V",
+                            "SysMfrContactInfo": "www.dell.com",
+                            "SysPassword": null,
+                            "SysProfile": "PerfOptimized",
+                            "SystemBiosVersion": "1.6.13",
+                            "SystemCpldVersion": "1.0.2",
+                            "SystemManufacturer": "Dell Inc.",
+                            "SystemMeVersion": "4.0.4.401",
+                            "SystemModelName": "PowerEdge R640",
+                            "SystemServiceTag": "6Y4N2W2",
+                            "TpmInfo": "No TPM present",
+                            "TpmPpiBypassClear": "Disabled",
+                            "TpmPpiBypassProvision": "Disabled",
+                            "UefiComplianceVersion": "2.5",
+                            "UefiVariableAccess": "Standard",
+                            "UncoreFrequency": "MaxUFS",
+                            "UpiPrefetch": "Enabled",
+                            "UsbManagedPort": "On",
+                            "UsbPorts": "AllOn",
+                            "VideoMem": "16 MB",
+                            "WorkloadProfile": "NotAvailable",
+                            "WriteCache": "Disabled",
+                            "WriteDataCrc": "Disabled"
+                        }
+                    ]
+                ],
+                "ret": true
+            },
+            "boot_order": {
+                "entries": [
+                    [
+                        {
+                            "systems_uri": "/redfish/v1/Systems/System.Embedded.1"
+                        },
+                        [
+                            {
+                                "BootOptionReference": "HardDisk.List.1-1",
+                                "DisplayName": "Hard drive C:"
+                            },
+                            {
+                                "BootOptionReference": "NIC.Integrated.1-1-1",
+                                "DisplayName": "Integrated NIC 1 Port 1 Partition 1: FlexBoot v3.5.504 (PCI 19:00.0)"
+                            }
+                        ]
+                    ]
+                ],
+                "ret": true
+            },
+            "cpu": {
+                "entries": [
+                    [
+                        {
+                            "systems_uri": "/redfish/v1/Systems/System.Embedded.1"
+                        },
+                        [
+                            {
+                                "Id": "CPU.Socket.2",
+                                "Manufacturer": "Intel",
+                                "MaxSpeedMHz": 4000,
+                                "Model": "Intel(R) Xeon(R) Gold 6138 CPU @ 2.00GHz",
+                                "Status": {
+                                    "Health": null,
+                                    "State": null
+                                },
+                                "TotalCores": 20,
+                                "TotalThreads": 40
+                            },
+                            {
+                                "Id": "CPU.Socket.1",
+                                "Manufacturer": "Intel",
+                                "MaxSpeedMHz": 4000,
+                                "Model": "Intel(R) Xeon(R) Gold 6138 CPU @ 2.00GHz",
+                                "Status": {
+                                    "Health": null,
+                                    "State": null
+                                },
+                                "TotalCores": 20,
+                                "TotalThreads": 40
+                            }
+                        ]
+                    ]
+                ],
+                "ret": true
+            },
+            "disk": {
+                "entries": [
+                    [
+                        {
+                            "systems_uri": "/redfish/v1/Systems/System.Embedded.1"
+                        },
+                        [
+                            [
+                                {
+                                    "BlockSizeBytes": 512,
+                                    "CapableSpeedGbs": 6,
+                                    "CapacityBytes": 479559942144,
+                                    "EncryptionAbility": "None",
+                                    "EncryptionStatus": "Unencrypted",
+                                    "FailurePredicted": false,
+                                    "HotspareType": "None",
+                                    "Id": "Disk.Bay.1:Enclosure.Internal.0-1:RAID.Integrated.1-1",
+                                    "Identifiers": [
+                                        {
+                                            "DurableName": "500056B3E96C26C1",
+                                            "DurableNameFormat": "NAA"
+                                        }
+                                    ],
+                                    "Manufacturer": "INTEL",
+                                    "MediaType": "SSD",
+                                    "Model": "SSDSC2KG480G8R",
+                                    "Name": "Solid State Disk 0:1:1",
+                                    "PartNumber": "CN06JGT5PESIT92G0290A00",
+                                    "Protocol": "SATA",
+                                    "Revision": "XCV1DL63",
+                                    "RotationSpeedRPM": 1,
+                                    "SerialNumber": "BTYG90660714480BGN",
+                                    "Status": {
+                                        "Health": null,
+                                        "HealthRollup": null,
+                                        "State": "Enabled"
+                                    }
+                                },
+                                {
+                                    "BlockSizeBytes": 512,
+                                    "CapableSpeedGbs": 6,
+                                    "CapacityBytes": 479559942144,
+                                    "EncryptionAbility": "None",
+                                    "EncryptionStatus": "Unencrypted",
+                                    "FailurePredicted": false,
+                                    "HotspareType": "None",
+                                    "Id": "Disk.Bay.0:Enclosure.Internal.0-1:RAID.Integrated.1-1",
+                                    "Identifiers": [
+                                        {
+                                            "DurableName": "500056B3E96C26C0",
+                                            "DurableNameFormat": "NAA"
+                                        }
+                                    ],
+                                    "Manufacturer": "INTEL",
+                                    "MediaType": "SSD",
+                                    "Model": "SSDSC2KG480G8R",
+                                    "Name": "Solid State Disk 0:1:0",
+                                    "PartNumber": "TW06JGT5PIHIT97L01VCA01",
+                                    "Protocol": "SATA",
+                                    "Revision": "XCV1DL63",
+                                    "RotationSpeedRPM": 1,
+                                    "SerialNumber": "PHYG92730232480BGN",
+                                    "Status": {
+                                        "Health": null,
+                                        "HealthRollup": null,
+                                        "State": "Enabled"
+                                    }
+                                },
+                                {
+                                    "BlockSizeBytes": 0,
+                                    "CapableSpeedGbs": 7.876923076923077,
+                                    "CapacityBytes": 1600000000000,
+                                    "EncryptionAbility": "None",
+                                    "EncryptionStatus": "Unencrypted",
+                                    "FailurePredicted": false,
+                                    "HotspareType": "None",
+                                    "Id": "Disk.Bay.6:Enclosure.Internal.0-1",
+                                    "Identifiers": [
+                                        {
+                                            "DurableName": null,
+                                            "DurableNameFormat": null
+                                        }
+                                    ],
+                                    "Manufacturer": "INTEL",
+                                    "MediaType": "SSD",
+                                    "Model": "Dell Express Flash NVMe P4610 1.6TB SFF ",
+                                    "Name": "PCIe SSD in Slot 6 in Bay 1",
+                                    "PartNumber": "",
+                                    "Protocol": "PCIe",
+                                    "Revision": "VDV1DP21",
+                                    "RotationSpeedRPM": 0,
+                                    "SerialNumber": "BTLN850003U31P6AGN",
+                                    "Status": {
+                                        "Health": null,
+                                        "HealthRollup": null,
+                                        "State": "Enabled"
+                                    }
+                                },
+                                {
+                                    "BlockSizeBytes": 0,
+                                    "CapableSpeedGbs": 7.876923076923077,
+                                    "CapacityBytes": 1600000000000,
+                                    "EncryptionAbility": "None",
+                                    "EncryptionStatus": "Unencrypted",
+                                    "FailurePredicted": false,
+                                    "HotspareType": "None",
+                                    "Id": "Disk.Bay.8:Enclosure.Internal.0-1",
+                                    "Identifiers": [
+                                        {
+                                            "DurableName": null,
+                                            "DurableNameFormat": null
+                                        }
+                                    ],
+                                    "Manufacturer": "INTEL",
+                                    "MediaType": "SSD",
+                                    "Model": "Dell Express Flash NVMe P4610 1.6TB SFF ",
+                                    "Name": "PCIe SSD in Slot 8 in Bay 1",
+                                    "PartNumber": "",
+                                    "Protocol": "PCIe",
+                                    "Revision": "VDV1DP21",
+                                    "RotationSpeedRPM": 0,
+                                    "SerialNumber": "BTLN903302UL1P6AGN",
+                                    "Status": {
+                                        "Health": null,
+                                        "HealthRollup": null,
+                                        "State": "Enabled"
+                                    }
+                                },
+                                {
+                                    "BlockSizeBytes": 0,
+                                    "CapableSpeedGbs": 7.876923076923077,
+                                    "CapacityBytes": 1600000000000,
+                                    "EncryptionAbility": "None",
+                                    "EncryptionStatus": "Unencrypted",
+                                    "FailurePredicted": false,
+                                    "HotspareType": "None",
+                                    "Id": "Disk.Bay.9:Enclosure.Internal.0-1",
+                                    "Identifiers": [
+                                        {
+                                            "DurableName": null,
+                                            "DurableNameFormat": null
+                                        }
+                                    ],
+                                    "Manufacturer": "INTEL",
+                                    "MediaType": "SSD",
+                                    "Model": "Dell Express Flash NVMe P4610 1.6TB SFF ",
+                                    "Name": "PCIe SSD in Slot 9 in Bay 1",
+                                    "PartNumber": "",
+                                    "Protocol": "PCIe",
+                                    "Revision": "VDV1DP21",
+                                    "RotationSpeedRPM": 0,
+                                    "SerialNumber": "BTLN850004251P6AGN",
+                                    "Status": {
+                                        "Health": null,
+                                        "HealthRollup": null,
+                                        "State": "Enabled"
+                                    }
+                                },
+                                {
+                                    "BlockSizeBytes": 0,
+                                    "CapableSpeedGbs": 7.876923076923077,
+                                    "CapacityBytes": 1600000000000,
+                                    "EncryptionAbility": "None",
+                                    "EncryptionStatus": "Unencrypted",
+                                    "FailurePredicted": false,
+                                    "HotspareType": "None",
+                                    "Id": "Disk.Bay.7:Enclosure.Internal.0-1",
+                                    "Identifiers": [
+                                        {
+                                            "DurableName": null,
+                                            "DurableNameFormat": null
+                                        }
+                                    ],
+                                    "Manufacturer": "INTEL",
+                                    "MediaType": "SSD",
+                                    "Model": "Dell Express Flash NVMe P4610 1.6TB SFF ",
+                                    "Name": "PCIe SSD in Slot 7 in Bay 1",
+                                    "PartNumber": "",
+                                    "Protocol": "PCIe",
+                                    "Revision": "VDV1DP21",
+                                    "RotationSpeedRPM": 0,
+                                    "SerialNumber": "BTLN852300W41P6AGN",
+                                    "Status": {
+                                        "Health": null,
+                                        "HealthRollup": null,
+                                        "State": "Enabled"
+                                    }
+                                }
+                            ]
+                        ]
+                    ]
+                ],
+                "ret": true
+            },
+            "memory": {
+                "entries": [
+                    [
+                        {
+                            "systems_uri": "/redfish/v1/Systems/System.Embedded.1"
+                        },
+                        [
+                            {
+                                "CapacityMiB": 32768,
+                                "Manufacturer": "Samsung",
+                                "MemoryDeviceType": "DDR4",
+                                "Name": "DIMM A1",
+                                "OperatingMemoryModes": [],
+                                "RankCount": 2,
+                                "SerialNumber": "25034D4E",
+                                "Status": {
+                                    "Health": null,
+                                    "State": null
+                                }
+                            },
+                            {
+                                "CapacityMiB": 32768,
+                                "Manufacturer": "Samsung",
+                                "MemoryDeviceType": "DDR4",
+                                "Name": "DIMM A2",
+                                "OperatingMemoryModes": [],
+                                "RankCount": 2,
+                                "SerialNumber": "25034D50",
+                                "Status": {
+                                    "Health": null,
+                                    "State": null
+                                }
+                            },
+                            {
+                                "CapacityMiB": 32768,
+                                "Manufacturer": "Samsung",
+                                "MemoryDeviceType": "DDR4",
+                                "Name": "DIMM A3",
+                                "OperatingMemoryModes": [],
+                                "RankCount": 2,
+                                "SerialNumber": "25034D55",
+                                "Status": {
+                                    "Health": null,
+                                    "State": null
+                                }
+                            },
+                            {
+                                "CapacityMiB": 32768,
+                                "Manufacturer": "Samsung",
+                                "MemoryDeviceType": "DDR4",
+                                "Name": "DIMM A4",
+                                "OperatingMemoryModes": [],
+                                "RankCount": 2,
+                                "SerialNumber": "25033852",
+                                "Status": {
+                                    "Health": null,
+                                    "State": null
+                                }
+                            },
+                            {
+                                "CapacityMiB": 32768,
+                                "Manufacturer": "Samsung",
+                                "MemoryDeviceType": "DDR4",
+                                "Name": "DIMM A5",
+                                "OperatingMemoryModes": [],
+                                "RankCount": 2,
+                                "SerialNumber": "250356E1",
+                                "Status": {
+                                    "Health": null,
+                                    "State": null
+                                }
+                            },
+                            {
+                                "CapacityMiB": 32768,
+                                "Manufacturer": "Samsung",
+                                "MemoryDeviceType": "DDR4",
+                                "Name": "DIMM A6",
+                                "OperatingMemoryModes": [],
+                                "RankCount": 2,
+                                "SerialNumber": "2503558B",
+                                "Status": {
+                                    "Health": null,
+                                    "State": null
+                                }
+                            },
+                            {
+                                "CapacityMiB": 32768,
+                                "Manufacturer": "Samsung",
+                                "MemoryDeviceType": "DDR4",
+                                "Name": "DIMM B1",
+                                "OperatingMemoryModes": [],
+                                "RankCount": 2,
+                                "SerialNumber": "25033B7C",
+                                "Status": {
+                                    "Health": null,
+                                    "State": null
+                                }
+                            },
+                            {
+                                "CapacityMiB": 32768,
+                                "Manufacturer": "Samsung",
+                                "MemoryDeviceType": "DDR4",
+                                "Name": "DIMM B2",
+                                "OperatingMemoryModes": [],
+                                "RankCount": 2,
+                                "SerialNumber": "25033B7A",
+                                "Status": {
+                                    "Health": null,
+                                    "State": null
+                                }
+                            },
+                            {
+                                "CapacityMiB": 32768,
+                                "Manufacturer": "Samsung",
+                                "MemoryDeviceType": "DDR4",
+                                "Name": "DIMM B3",
+                                "OperatingMemoryModes": [],
+                                "RankCount": 2,
+                                "SerialNumber": "25035A01",
+                                "Status": {
+                                    "Health": null,
+                                    "State": null
+                                }
+                            },
+                            {
+                                "CapacityMiB": 32768,
+                                "Manufacturer": "Samsung",
+                                "MemoryDeviceType": "DDR4",
+                                "Name": "DIMM B4",
+                                "OperatingMemoryModes": [],
+                                "RankCount": 2,
+                                "SerialNumber": "25033B74",
+                                "Status": {
+                                    "Health": null,
+                                    "State": null
+                                }
+                            },
+                            {
+                                "CapacityMiB": 32768,
+                                "Manufacturer": "Samsung",
+                                "MemoryDeviceType": "DDR4",
+                                "Name": "DIMM B5",
+                                "OperatingMemoryModes": [],
+                                "RankCount": 2,
+                                "SerialNumber": "25033B77",
+                                "Status": {
+                                    "Health": null,
+                                    "State": null
+                                }
+                            },
+                            {
+                                "CapacityMiB": 32768,
+                                "Manufacturer": "Samsung",
+                                "MemoryDeviceType": "DDR4",
+                                "Name": "DIMM B6",
+                                "OperatingMemoryModes": [],
+                                "RankCount": 2,
+                                "SerialNumber": "25033B7B",
+                                "Status": {
+                                    "Health": null,
+                                    "State": null
+                                }
+                            }
+                        ]
+                    ]
+                ],
+                "ret": true
+            },
+            "nic": {
+                "entries": [
+                    [
+                        {
+                            "resource_uri": "/redfish/v1/Systems/System.Embedded.1"
+                        },
+                        [
+                            {
+                                "AutoNeg": true,
+                                "Description": "NIC in Slot 1 Port 2 Partition 1",
+                                "FQDN": null,
+                                "IPv4Addresses": [],
+                                "IPv6Addresses": [],
+                                "MTUSize": null,
+                                "NameServers": [],
+                                "PermanentMACAddress": "98:03:9B:92:C9:E7",
+                                "SpeedMbps": 0
+                            },
+                            {
+                                "AutoNeg": true,
+                                "Description": "NIC in Slot 1 Port 1 Partition 1",
+                                "FQDN": null,
+                                "IPv4Addresses": [],
+                                "IPv6Addresses": [],
+                                "MTUSize": null,
+                                "NameServers": [],
+                                "PermanentMACAddress": "98:03:9B:92:C9:E6",
+                                "SpeedMbps": 0
+                            },
+                            {
+                                "AutoNeg": true,
+                                "Description": "Integrated NIC 1 Port 2 Partition 1",
+                                "FQDN": null,
+                                "IPv4Addresses": [],
+                                "IPv6Addresses": [],
+                                "MTUSize": null,
+                                "NameServers": [],
+                                "PermanentMACAddress": "98:03:9B:61:6E:D9",
+                                "SpeedMbps": 25600
+                            },
+                            {
+                                "AutoNeg": true,
+                                "Description": "Integrated NIC 1 Port 1 Partition 1",
+                                "FQDN": null,
+                                "IPv4Addresses": [],
+                                "IPv6Addresses": [],
+                                "MTUSize": null,
+                                "NameServers": [],
+                                "PermanentMACAddress": "98:03:9B:61:6E:D8",
+                                "SpeedMbps": 25600
+                            }
+                        ]
+                    ]
+                ],
+                "ret": true
+            },
+            "storage_controller": {
+                "entries": [
+                    [
+                        {
+                            "systems_uri": "/redfish/v1/Systems/System.Embedded.1"
+                        },
+                        [
+                            {
+                                "FirmwareVersion": "25.5.5.0005",
+                                "Identifiers": [
+                                    {
+                                        "DurableName": "54CD98F04FD14900",
+                                        "DurableNameFormat": "NAA"
+                                    }
+                                ],
+                                "Manufacturer": "DELL",
+                                "Model": "PERC H330 Mini",
+                                "Name": "PERC H330 Mini",
+                                "SpeedGbps": 12,
+                                "Status": {
+                                    "Health": null,
+                                    "HealthRollup": null,
+                                    "State": "Enabled"
+                                }
+                            },
+                            {
+                                "FirmwareVersion": "",
+                                "Identifiers": [
+                                    {
+                                        "DurableName": null,
+                                        "DurableNameFormat": null
+                                    }
+                                ],
+                                "Manufacturer": "DELL",
+                                "Model": "C620 Series Chipset Family SATA Controller [AHCI mode]",
+                                "Name": "C620 Series Chipset Family SATA Controller [AHCI mode]",
+                                "Status": {
+                                    "Health": null,
+                                    "HealthRollup": null,
+                                    "State": "Enabled"
+                                }
+                            },
+                            {
+                                "FirmwareVersion": "",
+                                "Identifiers": [
+                                    {
+                                        "DurableName": null,
+                                        "DurableNameFormat": null
+                                    }
+                                ],
+                                "Manufacturer": "DELL",
+                                "Model": "C620 Series Chipset Family SSATA Controller [AHCI mode]",
+                                "Name": "C620 Series Chipset Family SSATA Controller [AHCI mode]",
+                                "Status": {
+                                    "Health": null,
+                                    "HealthRollup": null,
+                                    "State": "Enabled"
+                                }
+                            }
+                        ]
+                    ]
+                ],
+                "ret": true
+            },
+            "system": {
+                "entries": [
+                    [
+                        {
+                            "systems_uri": "/redfish/v1/Systems/System.Embedded.1"
+                        },
+                        {
+                            "AssetTag": "",
+                            "BiosVersion": "1.6.13",
+                            "HostName": "",
+                            "Manufacturer": "Dell Inc.",
+                            "MemorySummary": {
+                                "MemoryMirroring": "System",
+                                "Status": {
+                                    "Health": null,
+                                    "HealthRollup": null,
+                                    "State": "Enabled"
+                                },
+                                "TotalSystemMemoryGiB": 357.628032
+                            },
+                            "Model": "PowerEdge R640",
+                            "PartNumber": "08HT8TA00",
+                            "PowerState": "Off",
+                            "ProcessorSummary": {
+                                "Count": 2,
+                                "LogicalProcessorCount": 80,
+                                "Model": "Intel(R) Xeon(R) Gold 6138 CPU @ 2.00GHz",
+                                "Status": {
+                                    "Health": null,
+                                    "HealthRollup": null,
+                                    "State": "Enabled"
+                                }
+                            },
+                            "SKU": "6Y4N2W2",
+                            "SerialNumber": "CNIVC0091F0350",
+                            "Status": {
+                                "Health": "OK",
+                                "HealthRollup": "OK",
+                                "State": "StandbyOffline"
+                            },
+                            "SystemType": "Physical",
+                            "TrustedModules": [
+                                {
+                                    "Status": {
+                                        "State": "Disabled"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                ],
+                "ret": true
+            }
+        }
+    },
+    "changed": false,
+    "deprecations": [
+        {
+            "msg": "Distribution redhat 8.0 on host master-2 should use /usr/libexec/platform-python, but is using /usr/bin/python for backward compatibility with prior Ansible releases. A future Ansible release will default to using the discovered platform python for this host. See https://docs.ansible.com/ansible/2.8/reference_appendices/interpreter_discovery.html for more information",
+            "version": "2.12"
+        }
+    ],
+    "failed": false
+}
