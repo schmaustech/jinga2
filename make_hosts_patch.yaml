@@ -1,0 +1,16 @@
+---
+- name: Generate Host Patch JSON
+  hosts: masters
+  gather_facts: false
+  tasks:
+
+  - name: Pull in HW Profile
+    set_fact:
+      hardware_json: "{{ lookup('file', '{{ inventory_hostname }}.hwprofile.json') | from_json }}"
+
+  - name: generate json file
+    template:
+      src: /home/bschmaus/make_host_patch.j2
+      dest: /home/bschmaus/host_patch.{{ inventory_hostname }}.json
+      mode: '0755'
+    delegate_to: localhost
